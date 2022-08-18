@@ -5,9 +5,9 @@ export default StyleSheet.create({
         flexDirection: 'row'
     },
     profile_photo: {
-        width: 35,
-        height: 35,
-        borderRadius: 35 / 2,
+        width: 30,
+        height: 30,
+        borderRadius: 30 / 2,
         marginLeft: 16,
         marginTop: 16,
     },
