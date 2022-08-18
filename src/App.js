@@ -1,5 +1,5 @@
 import React from "react";
-import { ScrollView, FlatList, SafeAreaView } from "react-native";
+import { ScrollView, StyleSheet, View } from "react-native";
 import Uppertoolbar from "./components/upper_toolbar/Uppertoolbar";
 import Story from "./components/story/Story";
 import Post from "./components/post/Post";
@@ -13,6 +13,7 @@ function App()  {
     <ScrollView>
       <Uppertoolbar />
       <Story selfPp={selfPpUrl}/>
+      <View style={{ borderBottomColor: 'grey', borderBottomWidth: StyleSheet.hairlineWidth,}} /> 
       <Post selfPp={selfPpUrl}/>
       <Bottomtoolbar selfPp={selfPpUrl}/>
     </ScrollView>
