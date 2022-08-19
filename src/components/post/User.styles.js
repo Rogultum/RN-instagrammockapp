@@ -13,8 +13,9 @@ export default StyleSheet.create({
     },
     usernameText: {
         marginLeft: 7,
-        marginTop: 24,
+        marginTop: 22,
         marginRight: 188,
         fontWeight: 'bold',
+        color: '#3B3B15',
     },
 })
