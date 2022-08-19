@@ -10,6 +10,6 @@ export default StyleSheet.create({
         marginRight: 27,
     },
     saveIcon: {
-        marginLeft: 118
+        marginLeft: 128
     }
 })
