@@ -40,5 +40,6 @@ export default StyleSheet.create({
     postedTimeStyle: {
         fontSize: 12,
         marginLeft: 2,
+        marginTop:2,
     }
 })
