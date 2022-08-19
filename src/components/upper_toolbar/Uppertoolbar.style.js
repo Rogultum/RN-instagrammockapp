@@ -8,12 +8,9 @@ export default StyleSheet.create({
     },
     instagramtext: {
         fontWeight: 'bold',
-        fontSize: 20,
+        fontSize: 24,
         padding: 16,
         paddingRight: 80,
+        color: 'black'
     },
-    pressable_text: {
-        fontSize: 20,
-        margin: 16,
-    }
 })
